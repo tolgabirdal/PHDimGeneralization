@@ -72,7 +72,7 @@ if __name__ == '__main__':
     parser.add_argument('--eval_freq', default=100, type=int)
     parser.add_argument('--dataset', default='mnist', type=str,
         help='mnist | cifar10 | cifar100')
-    parser.add_argument('--path', default='/share/cuvl/aaron/', type=str)
+    parser.add_argument('--path', default='data/', type=str)
     parser.add_argument('--seed', default=0, type=int)
     parser.add_argument('--model', default='fc', type=str)
     parser.add_argument('--criterion', default='NLL', type=str,
