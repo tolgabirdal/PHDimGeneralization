@@ -121,9 +121,9 @@ if __name__ == '__main__':
 
     if args.model == 'fc':
         if args.dataset == 'mnist':
-            net = fc(width=args.width, depth=args.depth, num_classes=num_classes).to(args.device)
+            net = fc.fc_mnist(width=args.width, depth=args.depth, num_classes=num_classes).to(args.device)
         elif args.dataset == 'cifar10':
-            net = fc(width=args.width, depth=args.depth, num_classes=num_classes, input_dim=3*32*32).to(args.device)
+            net = fc.fc_cifar(width=args.width, depth=args.depth, num_classes=num_classes, input_dim=3*32*32).to(args.device)
     elif args.model == 'alexnet':
         if args.dataset == 'mnist':
             net = alexnet(input_height=28, input_width=28, input_channels=1, num_classes=num_classes)
