@@ -1,7 +1,7 @@
-# PHDimGeneralization
+<!--# PHDimGeneralization
 Official implementation of "Intrinsic Dimension, Persistent Homology and Generalization in Neural Networks", NeurIPS 2021.
-
-### [Intrinsic Dimension, Persistent Homology and Generalization in Neural Networks]([https://arxiv.org/abs/1901.01255](https://arxiv.org/abs/2111.13171)), NeurIPS 2021.
+-->
+# [Intrinsic Dimension, Persistent Homology and Generalization in Neural Networks]([https://arxiv.org/abs/1901.01255](https://arxiv.org/abs/2111.13171)), NeurIPS 2021.
 [Tolga Birdal](http://tolgabirdal.github.io/), Aaron Lou, Leonidas Guibas, Umut Simsekli\
 Stanford University | INRIA
 
