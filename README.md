@@ -26,6 +26,10 @@ pip install Ripser
 
 The function ```calculate_ph_dim_gpu```, which computes topology on GPU and is differentiable, requires [TorchPH](https://c-hofer.github.io/torchph/). This is more difficult to install (due to various dependencies including C++ version). We recommend take a look at the [installation page](https://c-hofer.github.io/torchph/install/index.html).
 
+### Citation
+
+If you found this code or paper useful, please consider citing:
+
 ```shell
 @article{birdal2021intrinsic,
   title={Intrinsic dimension, persistent homology and generalization in neural networks},
